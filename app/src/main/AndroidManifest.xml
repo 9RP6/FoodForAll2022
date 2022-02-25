@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.food_for_all"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-sdk tools:overrideLibrary="android.support.v17.leanback"
+        android:minSdkVersion="16"
+        android:maxSdkVersion="17" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.GrocForMe" >
+        <activity
+            android:name="com.food_for_all.Bottomnavigation"
+            android:exported="false" />
+        <activity
+            android:name="com.food_for_all.SignupPage"
+            android:exported="false" />
+        <activity
+            android:name="com.food_for_all.LoginPage"
+            android:exported="false" />
+        <activity
+            android:name="com.food_for_all.MainActivity"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

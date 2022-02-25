@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "126381066874",
+    "project_id": "groc-for-me",
+    "storage_bucket": "groc-for-me.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:126381066874:android:5999fdac5b90436f1409c3",
+        "android_client_info": {
+          "package_name": "com.groc_for_me"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "126381066874-r7kna918ps2j66jg6hkeg3cpgnr9be36.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.groc_for_me",
+            "certificate_hash": "4607117fedbc5fb4d0c2838106a63a7ea7b793f8"
+          }
+        },
+        {
+          "client_id": "126381066874-vi6vhtcv05i52fu2m3certeq1p6bp6a4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAE9-Qrx53lG9cZrV5fPgeNtndx6Qk1nS4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "126381066874-vi6vhtcv05i52fu2m3certeq1p6bp6a4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
